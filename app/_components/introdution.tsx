@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import IAMaturityQuiz from "./maturityQuiz";
 // import IAMaturityQuiz from "./maturityQuizIa";
 

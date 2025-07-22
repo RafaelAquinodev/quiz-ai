@@ -1,4 +1,4 @@
-import { FaLightbulb, FaBrain, FaChartLine } from "react-icons/fa";
+import { FaLightbulb, FaChartLine } from "react-icons/fa";
 
 interface ResultsReportProps {
   score: number;
