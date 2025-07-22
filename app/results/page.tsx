@@ -2,12 +2,10 @@
 
 import ResultsContent from "../_components/resultsContent";
 
-// ajuste o caminho conforme sua estrutura
-
 export default function ResultsPage() {
   return (
-    <main className="min-h-screen flex flex-col justify-center items-center p-8 bg-gray-50">
-      <h1 className="text-4xl font-bold mb-8 text-gray-900">
+    <main className="h-screen max-h-screen overflow-y-auto bg-gray-50 flex flex-col justify-center items-center px-4 py-8 md:py-0">
+      <h1 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 text-center">
         Resultado do Questionário
       </h1>
       <ResultsContent />
