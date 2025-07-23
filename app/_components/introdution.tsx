@@ -1,4 +1,5 @@
 // import Image from "next/image";
+import Image from "next/image";
 import IAMaturityQuiz from "./maturityQuiz";
 // import IAMaturityQuiz from "./maturityQuizIa";
 
@@ -6,14 +7,14 @@ export default function IntroAndUserForm() {
   return (
     <div className="w-full bg-gray-100 rounded-none shadow-none grid grid-cols-1 md:grid-cols-2 gap-8">
       {/* Coluna da esquerda: Introdução */}
-      <div className="text-gray-800 space-y-4 p-8">
-        {/* <Image
-          src="/images/maturidade-logo.jpg"
+      <div className="text-gray-800 space-y-4 p-5">
+        <Image
+          src="/images/quiz-ia.jpg"
           alt="Descrição da imagem"
-          width={600}
-          height={400}
-          className="rounded-md shadow-md mb-6"
-        /> */}
+          width={450}
+          height={200}
+          className="rounded-md shadow-md mb-4"
+        />
 
         <h2 className="text-2xl font-semibold">
           Questionário de Autodiagnóstico: Qual o seu perfil profissional em
@@ -28,7 +29,7 @@ export default function IntroAndUserForm() {
         </p>
       </div>
 
-      <div className="space-y-6 p-8">
+      <div className="space-y-4 px-6 sm:px-4 md:px-8">
         <IAMaturityQuiz />
       </div>
     </div>

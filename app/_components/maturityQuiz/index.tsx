@@ -26,7 +26,7 @@ export default function QuestionPage() {
 
   return (
     <div className="min-h-screen flex justify-center items-start p-4">
-      <div className="w-full max-w-3xl bg-white shadow-lg rounded-xl p-8 border border-gray-200">
+      <div className="w-full sm:max-w-lg md:max-w-xl lg:max-w-3xl bg-white shadow-lg rounded-xl p-4 sm:p-8 border border-gray-200">
         <h1 className="text-3xl font-semibold text-gray-800 mb-6">
           Questionário de Maturidade em IA
         </h1>
