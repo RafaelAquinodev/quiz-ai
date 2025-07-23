@@ -11,7 +11,7 @@ export default function IntroAndUserForm() {
         <Image
           src="/images/quiz-ia.jpg"
           alt="Descrição da imagem"
-          width={450}
+          width={580}
           height={200}
           className="rounded-md shadow-md mb-4"
         />
